@@ -111,7 +111,7 @@ body {
   z-index: 1;
   background-image: linear-gradient(to right top, #101011, #161616, #1b1b1b, #202020, #252525);
   border: 1px solid #1b1b1b;
-  border-top: 3px solid #4fa1d9;
+  border-top: 3px solid #6e2c00;
   max-width: 600px;
   padding: 30px;
   color: #fff;
@@ -134,7 +134,7 @@ p {
 }
 
 .modal-header {
-  border-top: 2px solid #4fa1d9;
+  border-top: 2px solid #621c00;
   border-radius: 0;
   border-bottom: 1px solid #f8921a;
   padding: 5px 15px;
@@ -150,7 +150,7 @@ p {
 }
 
 .modal .close {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .modal-body {
@@ -160,14 +160,14 @@ p {
 .modal {
   justify-content: center;
   align-items: center;
-  background-color: #0000007a;
+  background-color: #ffffff7a;
 }
 
 .modal-content {
-  background: #000000;
+  background: #fdfdfd;
   border: 1px solid #757575;
   border-radius: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .card input {
