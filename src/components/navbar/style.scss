@@ -1,0 +1,63 @@
+a#logo-pro {
+    border: none;
+    border-right: 1px solid rgba(255,255,255,.1); 
+    padding: 0;
+    padding-right: 15px;
+}
+
+#logo-pro > a{
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+  
+}
+
+#logo-pro img, #logo-pro h2 {
+    width: 65px;
+    max-width: 100%;
+    transition-duration: 250ms;
+    transition-property: padding-top,padding-bottom,color,background-color,width;
+    transition-timing-function: ease-in-out;
+}
+
+.bg-blue{
+    padding: 0;
+    padding-left: 20px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: linear-gradient(to right, #171717, #1d1d1d, #232323, #2a2a2a, #303030, #303030, #303030, #303030, #2a2a2a, #232323, #1d1d1d, #171717);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #171717, #1d1d1d, #232323, #2a2a2a, #303030, #303030, #303030, #303030, #2a2a2a, #232323, #1d1d1d, #171717);
+}
+
+.profile-wrapper{
+    padding: 0px 20px 0px 10px;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    float: right;
+}
+
+.profile-img{
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid #fff;
+    border-radius: 45px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar{
+      padding: 5px 10px;
+    }
+    .navbar-toggler{
+        color:#fff;
+    }
+    .form-inline{
+        padding: 0; 
+    }
+    a#navbarDropdown{
+        padding-left: 0
+    }
+    .dropdown-menu-right {
+        right: auto;
+        left: auto;
+    }
+  }
