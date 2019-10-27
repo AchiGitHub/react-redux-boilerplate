@@ -122,7 +122,7 @@ class Login extends Component {
             </div>
             <div className="row">
               <div className="col-sm-12" style={{ textAlign: "left" }}>
-                <Link
+                {/* <Link
                   to="/password"
                   style={{
                     color: "#fff",
@@ -130,9 +130,9 @@ class Login extends Component {
                     fontSize: 10,
                     textDecoration: "underline"
                   }}
-                >
+                > */}
                   Forgot Password?
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           </form>

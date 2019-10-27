@@ -29,42 +29,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-image: linear-gradient(
-    to right bottom,
-    #313030,
-    #2e2d2d,
-    #2c2b2b,
-    #292828,
-    #272626,
-    #242424,
-    #222122,
-    #1f1f1f,
-    #1c1c1c,
-    #191919,
-    #161616,
-    #121212
-  );
+  background-color: rgb(83, 0, 86);
 }
 
 .nav_bar {
   width: 100%;
   padding-left: 20px;
   box-shadow: rgba(23, 23, 23, 0.4) 1px 1px 4px 0.5px;
-  background-image: linear-gradient(
-    to right,
-    #171717,
-    #1d1d1d,
-    #232323,
-    #2a2a2a,
-    #303030,
-    #303030,
-    #303030,
-    #303030,
-    #2a2a2a,
-    #232323,
-    #1d1d1d,
-    #171717
-  );
+  background-color: rgb(36, 0, 79);
 }
 
 .body-wrapper {
@@ -109,9 +81,9 @@ body {
 .card {
   position: relative;
   z-index: 1;
-  background-image: linear-gradient(to right top, #101011, #161616, #1b1b1b, #202020, #252525);
+  background-color: #20006579;
   border: 1px solid #1b1b1b;
-  border-top: 3px solid #6e2c00;
+  // border-top: 3px solid #6e2c00;
   max-width: 600px;
   padding: 30px;
   color: #fff;
@@ -198,7 +170,7 @@ p {
   padding: 15px;
   cursor: pointer;
   text-align: center;
-  margin: 0px 30px;
+  margin: 0px;
   border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
